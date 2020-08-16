@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title>Фонд поддержки детей им. А.Ф. Романовой</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="shortcut icon" href="favicon.ico" />
+</head>
+<body>
+<header>
+    <div class="header wrapper">
+        <div class="header-text"> <span class="header-text-span">Благотворительный фонд поддержки детей имени императрицы <a href="#">Александры Федоровны Романовой</a></span></div>
+        <div class="header-info">
+            <div class="logo"><a href="/"><img class="img-logo" src="img/logo.png" alt="logo"></a></div>
+            <div class="teg"><a href="#">#творимдобровместе</a></div>
+            <div class="help">
+                <div class="need_help"><a href="#">Нужна помощь</a></div>
+                <div class="want_help"><a href="#">Хочу помочь</a></div>
+            </div>
+            <input type="checkbox" id="nav-toggle" hidden>
+            <div class="toggle"><label for="nav-toggle" class="nav-toggle" onclick></label></div>
+
+            <nav class="nav">
+                <label for="nav-toggle" class="nav-toggle" onclick></label>
+                <ul class="menu">
+                    <li><a href="#">О фонде</a></li>
+                    <li><a href="#">Команда</a></li>
+                    <li><a href="#">Дети</a></li>
+                    <li><a href="#">Программы</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Отчеты</a></li>
+                    <li><a href="#">Благодарности</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+                <div class="social">
+                    <a href=""><img src="img/instagram.svg" alt="" class="img-social"></a>
+                    <a href=""><img src="img/vk-social-network-logo.svg" alt="" class="img-social"></a>
+                    <a href=""><img src="img/facebook.svg" alt="" class="img-social"></a>
+                    <a href=""><img src="img/youtube.svg" alt="" class="img-social"></a>
+                    <a href=""><img src="img/telegram.svg" alt="" class="img-social"></a>
+                </div>
+            </nav>
+            <div class="mask-content"><label for="nav-toggle" class="mask-content-label" onclick></label></div>
+        </div>
+    </div>
+</header>
+<main id="volunteer_page">
+    <section class="intro wrapper">
+        <div class="intro-img1">
+            <div class="intro-text">
+                <h1 class="intro-text1">Волонтерская программа</h1>
+                <p class="intro-text2">Девять лет творим добро вместе</p>
+            </div>
+        </div>
+    </section>
+    <section class="join_info wrapper">
+        <div class="questions">
+            <div class="how">
+                <h3>Как стать волонтёром?</h3>
+                <ol>
+                    <li>Ответить себе на вопрос: «Готов(а) ли я безвозмездно творить добрые дела вместе с дружной командой?» Если ответ положительный — шагай дальше;</li>
+                    <li>Заполнить анкету волонтёра, расположенную внизу страницу;</li>
+                    <li>Ждать звонка от сотрудника Фонда с приглашением на собеседование.</li>
+                </ol>
+            </div>
+            <div class="who">
+                <h3>Кто может стать волонтером?</h3>
+                <p>Любой человек, достигший совершеннолетия. Если вам есть 18, то смело заполняйте анкету и приходите на собеседование, мы рады каждому.</p>
+            </div>
+            <div class="what">
+                <h3>Чего ожидать от волонтерской деятельности?</h3>
+                <p>Вы получите возможность общаться с единомышленниками, обмениваться опытом и знаниями, а самое главное - творить добрые дела изо дня в день.</p>
+            </div>
+        </div>
+        <div class="application_volunteer">
+            <h3>Заявка на участие</h3>
+            <p>Хотите стать частью нашей команды? Тогда скорее заполняйте анкету. <br>Мы свяжемся с вами в течение недели и пригласим вас на собеседование. :)</p>
+            <span>Пожалуйста, заполните форму</span>
+            <form name="volunteer_form" action="#" method="post" enctype="multipart/form-data">
+                <div class="inside_fields">
+                    <div>
+                        <div><label for="vol_name_id">Имя*</label></div>
+                        <div><input type="text" name="name" id="vol_name_id" placeholder="Сергей" required></div>
+                    </div>
+
+                    <div>
+                        <div><label for="vol_phone_id">Телефон*</label></div>
+                        <div><input type="text" name="phone" id="vol_phone_id" placeholder="+7-916-299-99-99" required></div>
+                    </div>
+
+                    <div>
+                        <div><label for="vol_email_id">Email*</label></div>
+                        <div><input type="text" name="email" id="vol_email_id" placeholder="puff@yandex.ru" required></div>
+                    </div>
+
+                    <div>
+                        <div><label for="vol_exp_id">Волонтерский опыт — да/нет</label></div>
+                        <div><input type="text" name="exp" id="vol_exp_id" placeholder="нет"></div>
+                    </div>
+
+                    <div>
+                        <div><label for="vol_age_id">Возраст</label></div>
+                        <div><input type="text" name="age" id="vol_age_id" placeholder="18"></div>
+                    </div>
+
+                    <div>
+                        <div><label for="vol_education_id">Образование</label></div>
+                        <div><input type="text" name="education" id="vol_education_id" placeholder="Среднее"></div>
+                    </div>
+
+                    <div>
+                        <div><label for="vol_occup_id">Род деятельности в настоящее время</label></div>
+                        <div><input type="text" name="occup" id="vol_occup_id" placeholder="студент"></div>
+                    </div>
+
+                    <div>
+                        <div><label for="vol_soc_id">Aккаунт в соцсети (Fb/Vk/Inst)</label></div>
+                        <div><input type="text" name="soc" id="vol_soc_id" placeholder="@puff"></div>
+                    </div>
+
+                    <div>
+                        <div><label for="vol_photo_id">Фотография*</label></div>
+                        <div><input type="file" name="photo" id="vol_photo_id" accept="image/*,image/jpeg" required></div>
+                    </div>
+
+                    <div class="">
+                        <div><textarea name="name" id="vol_about_id" cols="53" rows="10" required placeholder="Расскажите о себе*"></textarea></div>
+                    </div>
+                </div>
+                <div>
+                    <div> <input name="agreement" id="agreement_id" class="input" type="checkbox"><label class="agreement-label" for="agreement_id">Даю согласие на обработку <a href="#">персональных данных</a></label></div>
+                </div>
+                <input type="submit" class="submit_button">
+
+            </form>
+        </div>
+    </section>
+    <section class="join-us wrapper">
+        <div class="banner">
+            <div class="join-info">
+                <h3>Хотите помогать детям?</h3>
+                <p>Тогда участвуйте в нашей волонтерской программе!</p>
+                <div class="but-join"><a href="#">Стать волонтером</a></div>
+            </div>
+        </div>
+        <div class="join-adv">
+            <div class="bla-bla">
+                <h3 class="desc">Присоединяйтесь к нам</h3>
+                <h3 class="mob">Присоединяйтесь</h3>
+            </div>
+            <div class="join-social">
+                <a class="social_img" href="#"><img src="img/instagram.svg" alt=""></a>
+                <a class="social_img" href="#"><img src="img/vk-social-network-logo.svg" alt=""></a>
+                <a class="social_img" href="#"><img src="img/facebook.svg" alt=""></a>
+                <a class="social_img" href="#"><img src="img/youtube.svg" alt=""></a>
+                <a class="social_img" href="#"><img src="img/telegram.svg" alt=""></a>
+            </div>
+            <div class="teg"><a href="#">#творимдобровместе</a></div>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="footer wrapper">
+        <div class="footer-info">
+            <div class="footer-logo"><a href="#"><img src="img/logo.png" alt="logo"></a></div>
+            <div class="contacts">
+                <span class="phone">+7 (495) 981-08-00</span>
+                <span class="email"><a href="mailto:fondpochta@mail.ru">fondpochta@mail.ru</a></span>
+            </div>
+            <div class="address">
+                <span>105082, Москва, <br>ул. Фридриха Энгельса, 75, стр. 3</span>
+            </div>
+        </div>
+        <div class="footer-menu">
+            <a href="#">О фонде</a>
+            <a href="#">Команда</a>
+            <a href="#">Дети</a>
+            <a href="#">Программы</a>
+            <a href="#">Новости</a>
+            <a href="#">Отчеты</a>
+            <a href="#">Благодарности</a>
+            <a href="#">Контакты</a>
+        </div>
+        <div class="footer-social">
+            <a class="social_img" href="#"><img src="img/instagram.svg" alt=""></a>
+            <a class="social_img" href="#"><img src="img/vk-social-network-logo.svg" alt=""></a>
+            <a class="social_img" href="#"><img src="img/facebook.svg" alt=""></a>
+            <a class="social_img" href="#"><img src="img/youtube.svg" alt=""></a>
+            <a class="social_img" href="#"><img src="img/telegram.svg" alt=""></a>
+        </div>
+        <div class="footer-info-offerta">
+            <div class="copyright"><span>© БФ им. А. Ф. Романовой, 2020</span></div>
+            <div class="with-help">
+                <span>При поддержке</span>
+                <div class="mini-logo"><img src="img/Image1.png" alt=""></div>
+            </div>
+            <div class="offert">
+                <p>Делая пожертвование, вы принимаете условия нашей <a href="#">Оферты</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
