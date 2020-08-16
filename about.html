@@ -88,16 +88,45 @@
         <div class="files">
             <h3>Официальные документы</h3>
             <div class="list_files">
-                <div class="file"><a href="#" download><img src="img/pdf-icon.png" alt="">Программы Фонда</a></div>
-                <div class="file"><a href="#" download><img src="img/pdf-icon.png" alt="">Устав Фонда</a></div>
-                <div class="file"><a href="#" download><img src="img/pdf-icon.png" alt="">Публичная Оферта</a></div>
-                <div class="file"><a href="#" download><img src="img/pdf-icon.png" alt="">Свидетельсво о регистрации юридического лица</a></div>
-                <div class="file"><a href="#" download><img src="img/pdf-icon.png" alt="">Свидетельство о постановке на учет в налоговом органе</a></div>
-                <div class="file"><a href="#" download><img src="img/pdf-icon.png" alt="">Свидетельство о государственной регистрации некоммерческой организации</a></div>
-                <div class="file"><a href="#" download><img src="img/pdf-icon.png" alt="">Политика обработки персональных данных</a></div>
+                <div class="file"><a href="#" download><div><img src="img/pdf-icon.png" alt=""><span>Программы Фонда</span></div></a></div>
+                <div class="file"><a href="#" download><div><img src="img/pdf-icon.png" alt=""><span>Устав Фонда</span></div></a></div>
+                <div class="file"><a href="#" download><div><img src="img/pdf-icon.png" alt=""><span>Публичная Оферта</span></div></a></div>
+                <div class="file"><a href="#" download><div><img src="img/pdf-icon.png" alt=""><span>Свидетельсво о регистрации юридического лица</span></div></a></div>
+                <div class="file"><a href="#" download><div><img src="img/pdf-icon.png" alt=""><span>Свидетельство о постановке на учет в налоговом органе</span></div></a></div>
+                <div class="file"><a href="#" download><div><img src="img/pdf-icon.png" alt=""><span>Свидетельство о государственной регистрации некоммерческой организации</span></div></a></div>
+                <div class="file"><a href="#" download><div><img src="img/pdf-icon.png" alt=""><span>Политика обработки персональных данных</span></div></a></div>
             </div>
         </div>
-        <div class="gallery"></div>
+        <div class="gallery">
+            <div class="slider-wrapper">
+                <div class="info-heading">
+                    <h2>Галлерея</h2>
+                    <div class="slider-controls">
+                        <span class="slider-prev-3"></span>
+                        <span class="slider-next-3"></span>
+                    </div>
+                </div>
+                <div class="slider-body">
+                    <div class="slider-thumbs-1">
+                        <!-- Элемент слайдера-->
+                        <div class="slick-slide-gal">
+                            <a class="gallery-slide" href="#">
+                                <div class="gal-slide-img">
+                                    <img src="img/gallery_slide1.png" alt="slide1" class="gallery-img">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="slick-slide-gal">
+                            <a class="gallery-slide" href="#">
+                                <div class="gal-slide-img">
+                                    <img src="img/gallery_slide1.png" alt="slide1" class="gallery-img">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <section class="join-us wrapper">
         <div class="banner">
@@ -164,5 +193,29 @@
         </div>
     </div>
 </footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+        crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.3.1.min.js"
+        integrity="sha256-APllMc0V4lf/Rb5Cz4idWUCYlBDG3b0EcN1Ushd3hpE="
+        crossorigin="anonymous"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.slider-thumbs-1').slick({
+            dots: false,
+            infinite: true,
+            vertical: false,
+            speed: 800,
+            autoplay: false,
+            autoplaySpeed: 10000,
+            arrows: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            prevArrow: $('.slider-prev-3'),
+            nextArrow: $('.slider-next-3'),
+        });
+    });
+</script>
 </body>
 </html>
