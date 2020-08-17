@@ -1095,6 +1095,90 @@ span.news_date {
 	margin: 50px auto;
 }
 
+#person_page .person_information{
+    padding: 100px 85px 100px 85px;
+}
+#person_page .person_name h1{
+    font-size: 48px;
+    width: 434px;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+#person_page .person_position h3{
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+#person_page .person-img{
+    width:540px;
+    height: 400px;
+    margin-bottom: 50px;
+}
+#person_page .person-img img{
+    width: 100%;
+}
+#person_page .person_biography{
+    width: 730px;
+}
+#person_page .person_biography p{
+    font-size: 16px;
+    font-weight: normal;
+    padding-bottom: 15px;
+}
+#person_page .awards{
+    padding-top: 85px;
+}
+#person_page .awards h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+#person_page .awards_list{
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 30px;
+}
+#person_page .diploma{
+    width:160px;
+    height: 215px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+#person_page .diploma img{
+    width:100%;
+}
+#person_page .other_person_gal{
+    padding: 0 85px;
+}
+#person_page .other_person_gal h2{
+    font-size: 32px;
+}
+#person_page .slick-slide{
+    max-width:  -moz-available;
+    max-width: -webkit-fill-available;
+}
+#person_page .slick-slide-gal a{
+    color: #000;
+    text-decoration: none;
+}
+#person_page .slide-img{
+    width: 350px;
+    height: 260px;
+    max-width: 350px;
+}
+#person_page .slide-img img{
+    width: 100%;
+    height: 100%;
+}
+#person_page .slide_info{
+
+}
+#person_page .slide_info h3{
+    font-size: 18px;
+
+}
+#person_page .slide_info p{
+    font-size: 16px;
+}
 
 
 /* Медиа 768 --------------------------------------------------------------------------------------*/
@@ -1362,6 +1446,37 @@ span.news_date {
     #team_page .team_member img{
         height: 246px;
         width: 330px;
+    }
+    #person_page .person_information{
+        padding: 100px 39px 70px 39px;
+    }
+    #person_page .person-img{
+        width:450px;
+        height: 335px;
+        margin-bottom: 40px;
+    }
+    #person_page .person-img img{
+        width: 100%;
+    }
+    #person_page .person_biography{
+        width: 690px;
+    }
+    #person_page .person_biography p{
+        font-size: 16px;
+        font-weight: normal;
+        padding-bottom: 15px;
+    }
+    #person_page .awards{
+        padding-top: 85px;
+    }
+    #person_page .awards h3{
+        font-size: 24px;
+        font-weight: 500;
+    }
+    #person_page .diploma{
+        width:150px;
+        height: 200px;
+        margin-right: 30px;
     }
 
 
@@ -1818,6 +1933,49 @@ span.news_date {
         -moz-border-radius: 4px;
         border-radius: 4px;
         margin: 30px auto;
+    }
+    #person_page .person_information{
+        padding: 70px 15px 50px 15px;
+    }
+    #person_page .person_name h1{
+        font-size: 32px;
+        width: 100%;
+        font-weight: 500;
+        padding-bottom: 30px;
+    }
+    #person_page .person_position h3{
+        font-size: 24px;
+        font-weight: 500;
+        padding-bottom: 50px;
+    }
+    #person_page .person-img{
+        width:100%;
+        height: auto;
+        margin-bottom: 50px;
+    }
+    #person_page .person-img img{
+        width: 100%;
+    }
+    #person_page .person_biography{
+        width: 100%;
+    }
+    #person_page .person_biography p{
+        font-size: 16px;
+        font-weight: normal;
+        padding-bottom: 15px;
+    }
+    #person_page .awards{
+        padding-top: 70px;
+    }
+    #person_page .awards h3{
+        font-size: 24px;
+        font-weight: 500;
+    }
+    #person_page .diploma{
+        width:130px;
+        height: 174px;
+        margin-right: 15px;
+        margin-bottom: 15px;
     }
 
 }
