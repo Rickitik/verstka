@@ -1147,37 +1147,37 @@ span.news_date {
 #person_page .diploma img{
     width:100%;
 }
-#person_page .other_person_gal{
+#person_page .other_person_gal, #news_detail .other_person_gal{
     padding: 0 85px;
 }
-#person_page .other_person_gal h2{
+#person_page .other_person_gal h2, #news_detail .other_person_gal h2{
     font-size: 32px;
 }
-#person_page .slick-slide{
+#person_page .slick-slide, #news_detail .slick-slide{
     max-width:  -moz-available;
     max-width: -webkit-fill-available;
 }
-#person_page .slick-slide-gal a{
+#person_page .slick-slide-gal a, #news_detail .slick-slide-gal a{
     color: #000;
     text-decoration: none;
 }
-#person_page .slide-img{
+#person_page .slide-img, #news_detail .slide-img{
     width: 350px;
     height: 260px;
     max-width: 350px;
 }
-#person_page .slide-img img{
+#person_page .slide-img img, #news_detail .slide-img img{
     width: 100%;
     height: 100%;
 }
 #person_page .slide_info{
 
 }
-#person_page .slide_info h3{
+#person_page .slide_info h3, #news_detail .slide_info h3{
     font-size: 18px;
 
 }
-#person_page .slide_info p{
+#person_page .slide_info p, #news_detail .slide_info p{
     font-size: 16px;
 }
 
@@ -1715,7 +1715,38 @@ span.news_date {
 .news-more a:hover{
     color: #000000;
 }
-
+#news_detail .detail_information{
+    padding: 100px 85px;
+}
+#news_detail .news_detail_title{
+    width: 720px;
+}
+#news_detail .news_detail_title h1{
+    font-size: 48px;
+}
+#news_detail .news_detail_date{
+    margin-top: 30px;
+}
+#news_detail .news-detail-img{
+    width: 540px;
+    height: 403px;
+    padding-top: 50px;
+}
+#news_detail .news-detail-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#news_detail .new-detail-content{
+    padding-top: 50px;
+    width: 730px;
+}
+#news_detail .new-detail-content p{
+    padding-bottom: 30px;
+}
+#news_detail .slick-slide-gal a:hover{
+    color: #505050;
+}
 
 
 
@@ -2016,21 +2047,21 @@ span.news_date {
         height: 200px;
         margin-right: 30px;
     }
-    #person_page .slider-wrapper {
+    #person_page .slider-wrapper, #news_detail .slider-wrapper {
         padding-top: 50px;
     }
-    #person_page .other_person_gal {
+    #person_page .other_person_gal, #news_detail .other_person_gal {
         padding: 0 35px;
     }
-    #person_page .info-heading {
+    #person_page .info-heading, #news_detail .info-heading {
         margin-bottom: 30px;
     }
-    #person_page .slide-img {
+    #person_page .slide-img, #news_detail .slide-img {
         width: 330px;
         height: 246px;
         max-width: 330px;
     }
-    #person_page .slide-img img {
+    #person_page .slide-img img, #news_detail .slide-img img {
         width: 100%;
         height: 100%;
         max-width: none;
@@ -2187,6 +2218,23 @@ span.news_date {
     .news-more {
         width: 210px;
         margin: 20px auto 40px;
+    }
+    #news_detail .detail_information{
+        padding: 100px 39px;
+    }
+    #news_detail .news_detail_title{
+        width: 520px;
+    }
+    #news_detail .news-detail-img{
+        width: 450px;
+        height: 337px;
+    }
+    #news_detail .new-detail-content{
+        padding-top: 50px;
+        width: 100%;
+    }
+    #news_detail .news-more{
+        display: none;
     }
 
 
@@ -2688,16 +2736,16 @@ span.news_date {
         margin-right: 15px;
         margin-bottom: 15px;
     }
-    #person_page .other_person_gal {
+    #person_page .other_person_gal, #news_detail .other_person_gal {
         padding: 0 15px;
     }
-    #person_page .slider-wrapper {
+    #person_page .slider-wrapper, #news_detail .slider-wrapper {
         padding-top: 20px;
     }
-    #person_page .slider-body {
+    #person_page .slider-body, #news_detail .slider-body {
         padding: 0 5px;
     }
-    #person_page .slide-img {
+    #person_page .slide-img, #news_detail .slide-img {
         width: 290px;
         height: 216px;
         max-width: none;
@@ -2892,6 +2940,28 @@ span.news_date {
     }
     .news-more {
         width: 100%;
+    }
+    #news_detail .detail_information{
+        padding: 70px 15px;
+    }
+    #news_detail .news_detail_title{
+        width: 100%;
+    }
+    #news_detail .news_detail_title h1{
+        font-size: 32px;
+    }
+    #news_detail .news_detail_date span{
+        font-size: 14px;
+    }
+    #news_detail .news-detail-img{
+        width: 100%;
+        height: auto;
+    }
+    #news_detail .slider-controls{
+        display: none;
+    }
+    #news_detail .news-more{
+        display: block;
     }
 
 
