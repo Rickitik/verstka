@@ -123,7 +123,6 @@ main {
 }
 
 .intro-img1{
-    /*background: url(../img/screen1.png) center no-repeat #dddddd;*/
     width: 100%;
     height: 722px;
     text-align: left;
@@ -370,6 +369,15 @@ main {
     font-size: 12px;
     letter-spacing: 0;
     text-align: left;
+}
+.already-helped-info-block .money_count{
+    color: #1E88E5;
+    font-size: 16px;
+}
+.already-helped-info-block .money_count:before{
+    content: '\2713';
+    font-size: 16px;
+    padding-right: 7px;
 }
 
 .child-more{
@@ -712,7 +720,7 @@ span.news_date {
 .application-content .main-content .input_fields {
     display: flex;
     flex-flow: column wrap;
-    height: 430px;
+    height: 458px;
 }
 .application-content .main-content .input_fields > div {
     width: 350px;
@@ -810,6 +818,21 @@ span.news_date {
     height: 400px;
     text-align: left;
     z-index: 0;
+}
+#volunteer_page .intro-img1::after{
+    content:'';
+    background: #000000 0 0 no-repeat padding-box;
+    position: absolute;
+    opacity: 0.4;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+#volunteer_page .intro-text {
+    padding-top: 70px;
+    padding-left: 85px;
 }
 #volunteer_page .intro-text2 {
     display: none;
@@ -910,6 +933,21 @@ span.news_date {
     background-image: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
     background-image: linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
 }
+.succes_page{
+    padding: 100px 85px 80px 85px;
+    max-width: 100%;
+}
+.succes_page h1{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.succes_page p{
+    text-align: center;
+}
+.errorlist li {
+    color: red;
+    font-size: 13px;
+}
 
 #about_page .banner{
     display: none;
@@ -919,6 +957,17 @@ span.news_date {
     width: 100%;
     height: 400px;
     z-index: 0;
+}
+#about_page .intro-img1::after{
+    content:'';
+    background: #000000 0 0 no-repeat padding-box;
+    position: absolute;
+    opacity: 0.4;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
 }
 #about_page .intro-text {
     margin-top: 100px;
@@ -1054,6 +1103,17 @@ span.news_date {
 	text-align: left;
 	z-index: 0;
 }
+#team_page .intro-img1::after{
+    content:'';
+    background: #000000 0 0 no-repeat padding-box;
+    position: absolute;
+    opacity: 0.4;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
 #team_page .intro-text {
 	margin-top: 100px;
 	margin-left: 85px;
@@ -1065,7 +1125,7 @@ span.news_date {
 	width: 313px;
 }
 #team_page .team_wrapper{
-    padding: 100px 55px 100px 85px;
+    padding: 100px 55px 50px 85px;
     border-bottom: 1px solid #F5F5F5;
 }
 #team_page .team h3{
@@ -1121,7 +1181,7 @@ span.news_date {
 }
 
 #person_page .person_information{
-    padding: 100px 85px 100px 85px;
+    padding: 100px 85px 50px 85px;
 }
 #person_page .person_name h1{
     font-size: 48px;
@@ -1517,6 +1577,17 @@ span.news_date {
     height: 400px;
     text-align: left;
     z-index: 0;
+}
+#program_page .intro-img1::after{
+    content:'';
+    background: #000000 0 0 no-repeat padding-box;
+    position: absolute;
+    opacity: 0.4;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
 }
 #program_page .intro-text1 {
     font-size: 48px;
@@ -1995,6 +2066,9 @@ span.news_date {
 #graditude_detail_page .slick-slide {
     max-width: 730px !important;
 }
+#graditude_detail_page .slider-nav .slick-slide img {
+    width: 100%;
+}
 #graditude_detail_page .slider-for img{
 	width: 600px;
     height: auto;
@@ -2228,6 +2302,10 @@ span.news_date {
         background: url(../img/volunteer_back.png) 0 30% no-repeat #000;
         height: 432px;
     }
+    #volunteer_page .intro-text {
+        padding-top: 100px;
+        padding-left: 39px;
+    }
     #volunteer_page .questions {
         width: auto;
         padding-left: 39px;
@@ -2239,6 +2317,15 @@ span.news_date {
     }
     #volunteer_page .application_volunteer form {
         max-width: 100%;
+    }
+    .succes_page{
+        padding: 100px 35px 80px 35px;
+    }
+    .succes_page h1 {
+        text-align: center;
+        padding-bottom: 40px;
+        padding-right: 35px;
+        width: 100% !important;
     }
 
     #about_page .intro-img1 {
@@ -2919,6 +3006,10 @@ span.news_date {
         height: 420px;
         background-size: cover;
     }
+    #volunteer_page .intro-text {
+        padding-top: 70px;
+        padding-left: 15px;
+    }
     #volunteer_page .intro-text1 {
         font-size: 32px;
         width: 74%;
@@ -2951,7 +3042,16 @@ span.news_date {
     #volunteer_page .application_volunteer .submit_button {
         width: 98%;
     }
-
+    .succes_page{
+        padding: 70px 15px 80px 15px;
+    }
+    .succes_page h1 {
+        text-align: center;
+        padding-bottom: 40px;
+        padding-right: 35px;
+        width: 100% !important;
+        padding-left: 0px !important;
+    }
     #about_page .intro-text2 {
         margin-top: 178px;
         padding-left: 15px;
@@ -3268,6 +3368,9 @@ span.news_date {
         display: block;
         top: 0;
     }
+    #main_page .slider-controls {
+        display: none !important;
+    }
     #news_page .news_wrapper{
         padding: 70px 15px 70px 15px;
     }
@@ -3287,7 +3390,7 @@ span.news_date {
     #news_page .news_item{
         width: 100%;
         margin-right: 0;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
     .news-more {
         width: 100%;
